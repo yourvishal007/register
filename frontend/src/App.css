@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.container{
+  width: 33.3%;
+margin-left: 33.3%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid cadetblue;
+  box-shadow: 10px 15px cadetblue;
+}
+.textBox{
+  width: 200px;;
+  height: 20px;
+  margin: 10px;
+  align-self: center;
+  
+}
+.btn{
+  width: 100px;
+  align-self: center;
+  margin: 10px;
+  height: 20px;
+  background-color: cadetblue;
+  border-radius: 10%;
+}
+
+.match{
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  align-self: center;
+  border-color: red;
+}
+.unmatch{
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  align-self: center;
+  border-color: green;
+}
+.emailerror{
+  border-color: red;
+}
